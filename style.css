@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+    max-width: 2000ox;
+    height: 70px;
+}
+ul li{
+    float: right;
+}
+ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 10px;
+}
+ul li a:hover{
+    background-color: rgb(220, 142, 199);
+}
+.button{
+    padding: 15px;
+    margin: 20px;
+    position: fixed;
+    top: 500px;
+    left: 90px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgb(183, 127, 136);
+}
