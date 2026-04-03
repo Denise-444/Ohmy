@@ -1,14 +1,12 @@
-ul{
+ul {
     list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
+    margin: 0;
+    padding: 0;
     background-color: white;
-    max-width: 2000ox;
-    height: 70px;
 }
 ul li{
     float: right;
+    background-color: rgb(248, 191, 233);
 }
 ul li a{
     display: block;
@@ -17,11 +15,12 @@ ul li a{
     padding: 14px 16px;
     text-decoration: none;
     margin: 10px;
-}
+}   
 ul li a:hover{
     background-color: rgb(220, 142, 199);
 }
-.button{
+.bookbtn{
+    color: aliceblue;
     padding: 15px;
     margin: 20px;
     position: fixed;
@@ -29,5 +28,28 @@ ul li a:hover{
     left: 90px;
     border-radius: 20px;
     font-size: larger;
-    background-color: rgb(183, 127, 136);
+    background-color: #2C2C2C;
+    
+}
+.arbtn{
+    color: aliceblue;
+    padding: 15px;
+    margin: 20px;
+    position: fixed;
+    top: 430px;
+    left: 90px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: #2C2C2C;
+}
+
+@media screen and (min-width: 600px) {
+main {
+display: flex;
+ }
+}
+
+.responsive {
+width: 100%;
+height: auto;
 }

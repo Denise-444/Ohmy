@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dying forrrr youuuuuuu</h1>
+    <video id="camera" autoplay></video>
+<canvas id="overlay"></canvas>
+<script>
+    const video = document.getElementById("camera");
+    navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function(stream) {
+        // Access to the camera granted
+        console.log('Camera access granted!');
+        // Do something with the video stream
+    })
+    .catch(function(err) {
+        // Access to the camera denied
+        console.error('Camera access denied:', err);
+    });
+    </script>
+</body>
+</html>
